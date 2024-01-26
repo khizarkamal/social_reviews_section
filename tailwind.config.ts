@@ -7,11 +7,24 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      primary: {
+        dark_magenta: " hsl(300, 43%, 22%)",
+        soft_pink: "hsl(333, 80%, 67%)",
+      },
+      neutral: {
+        grayish_magenta: " hsl(303, 10%, 53%)",
+        light_grayish_magenta: "hsl(300, 24%, 96%)",
+        white: " hsl(0, 0%, 100%)",
+      },
+    },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        image: 'url("/images/bg-pattern-top-desktop.svg")',
+        mobileImage: 'url("/images/bg-pattern-top-mobile.svg")',
+      },
+      fontSize: {
+        basic: "15px",
       },
     },
   },
