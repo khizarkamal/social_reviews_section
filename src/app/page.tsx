@@ -9,8 +9,8 @@ export default function Home() {
       <section className="flex flex-col py-20 px-4 md:px-16">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col gap-4 mb-12 md:flex-1">
-            <h1 className="text-center text-3xl max-w-48 mx-auto text-primary-dark_magenta font-bold md:text-4xl md:max-w-56 md:mx-0 md:text-start">
-              10,000 plus of our users love our products
+            <h1 className="text-center text-3xl max-w-48 mx-auto text-primary-dark_magenta font-bold md:text-5xl md:max-w-[20rem] md:mx-0 md:text-start">
+              10,000+ of our users love our products
             </h1>
             <p className="text-center text-neutral-grayish_magenta md:text-start md:text-md md:max-w-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
